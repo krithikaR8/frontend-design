@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/nav_capture"
+            android:icon="@drawable/ic_camera"
+            android:title="Capture">
+
+        </item>
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_book"
+            android:title="Book">
+
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Tutorial">
+            <menu>
+                <item
+                    android:id="@+id/nav_book1"
+                    android:icon="@drawable/ic_book"
+                    android:title="Numbers">
+
+                </item>
+                <item
+                    android:id="@+id/nav_book2"
+                    android:icon="@drawable/ic_book"
+                    android:title="Letter">
+
+                </item>
+                <item
+                    android:id="@+id/nav_book3"
+                    android:icon="@drawable/ic_book"
+                    android:title="Words">
+
+                </item>
+                <item
+                    android:id="@+id/nav_book4"
+                    android:icon="@drawable/ic_book"
+                    android:title="Vedio">
+
+                </item>
+            </menu>
+        </item>
+    </group>
+
+</menu>
